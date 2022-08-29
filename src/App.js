@@ -1,15 +1,13 @@
 import "./App.css";
 import Header from "./components/Header";
+import Welcome from "./components/Welcome";
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <Header />
       <main>
-        <section className="welcome-content">
-          <h1>Luke Hook</h1>
-          <h2>Full Stack Web Developer</h2>
-        </section>
+        <Welcome />
         <section className="about-content">
           <img src="null" alt="" />
           <p>lorem ipsum dolor</p>
