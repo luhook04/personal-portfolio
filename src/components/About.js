@@ -18,43 +18,43 @@ const About = () => {
           </div>
           <div className="tech-icon">
             <i class="devicon-javascript-plain colored"></i>
-            <span>JavaScript</span>
+            <span>JAVASCRIPT</span>
           </div>
           <div className="tech-icon">
             <i class="devicon-react-original colored"></i>
-            <span>React</span>
+            <span>REACT</span>
           </div>
           <div className="tech-icon">
             <i class="devicon-nodejs-plain colored"></i>
-            <span>Node.js</span>
+            <span>NODEJS</span>
           </div>
           <div className="tech-icon">
             <i class="devicon-express-original colored"></i>
-            <span>Express</span>
+            <span>EXPRESS</span>
           </div>
           <div className="tech-icon">
             <i class="devicon-mongodb-plain colored"></i>
-            <span>MongoDB</span>
+            <span>MONGODB</span>
           </div>
           <div className="tech-icon">
             <i class="devicon-heroku-plain colored"></i>
-            <span>Heroku</span>
+            <span>HEROKU</span>
           </div>
           <div className="tech-icon">
             <i class="devicon-firebase-plain colored"></i>
-            <span>Firebase</span>
+            <span>FIREBASE</span>
           </div>
           <div className="tech-icon">
             <i class="devicon-git-plain colored"></i>
-            <span>Git</span>
+            <span>GIT</span>
           </div>
           <div className="tech-icon">
             <i class="devicon-jest-plain colored"></i>
-            <span>Jest</span>
+            <span>JEST</span>
           </div>
           <div className="tech-icon">
             <i class="devicon-webpack-plain colored"></i>
-            <span>Webpack</span>
+            <span>WEBPACK</span>
           </div>
         </div>
       </div>
