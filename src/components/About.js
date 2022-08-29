@@ -1,10 +1,12 @@
+import placeHolderPhoto from "../assets/pic.jpg";
+
 const About = () => {
   return (
     <section className="about-content">
       <h3>About</h3>
       <div>
         <div>
-          <img src="null" alt="" />
+          <img src={placeHolderPhoto} alt="null" />
           <p>lorem ipsum dolor</p>
         </div>
         <div className="skills">
