@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Welcome from "./components/Welcome";
 import About from "./components/About";
+import Projects from "./components/Projects";
 
 const App = () => {
   return (
@@ -10,12 +11,8 @@ const App = () => {
       <main>
         <Welcome />
         <About />
-        <section>
-          <h3>Skills</h3>
-        </section>
-        <section>
-          <h3>Projects</h3>
-        </section>
+
+        <Projects />
         <section>
           <h3>Contact</h3>
         </section>

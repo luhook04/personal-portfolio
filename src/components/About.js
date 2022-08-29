@@ -1,8 +1,11 @@
 const About = () => {
   return (
     <section className="about-content">
-      <img src="null" alt="" />
-      <p>lorem ipsum dolor</p>
+      <div>
+        <img src="null" alt="" />
+        <p>lorem ipsum dolor</p>
+      </div>
+      <div className="skills">skills</div>
     </section>
   );
 };
