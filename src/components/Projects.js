@@ -8,7 +8,7 @@ const Projects = () => {
           <h4>App name</h4>
           <p>description</p>
           <div>
-            <button>Link</button>
+            <button>Live Preview</button>
             <button>Respository</button>
           </div>
         </div>
