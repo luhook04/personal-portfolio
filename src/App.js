@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Welcome from "./components/Welcome";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -11,11 +12,8 @@ const App = () => {
       <main>
         <Welcome />
         <About />
-
         <Projects />
-        <section>
-          <h3>Contact</h3>
-        </section>
+        <Contact></Contact>
       </main>
       <footer>Footer</footer>
     </div>
