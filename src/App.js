@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import Welcome from "./components/Welcome";
+import About from "./components/About";
 
 const App = () => {
   return (
@@ -8,10 +9,7 @@ const App = () => {
       <Header />
       <main>
         <Welcome />
-        <section className="about-content">
-          <img src="null" alt="" />
-          <p>lorem ipsum dolor</p>
-        </section>
+        <About />
         <section>
           <h3>Skills</h3>
         </section>
