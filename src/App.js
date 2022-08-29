@@ -1,19 +1,10 @@
 import "./App.css";
+import Header from "./components/Header";
 
-function App() {
+const App = () => {
   return (
     <div>
-      <header>
-        <nav>
-          <img src="" alt="logo" />
-          <ul>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
-      </header>
+      <Header />
       <main>
         <section className="welcome-content">
           <h1>Luke Hook</h1>
@@ -36,6 +27,6 @@ function App() {
       <footer>Footer</footer>
     </div>
   );
-}
+};
 
 export default App;
