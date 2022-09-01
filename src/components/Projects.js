@@ -13,66 +13,78 @@ const Projects = () => {
         <div className="project-info">
           <h4>App name</h4>
           <p>description</p>
+          <ul>
+            <li>Repository</li>
+            <li>Live Preview</li>
+          </ul>
         </div>
         <div>
           <img src={waldoPic} alt="" />
-          <button>Live Preview</button>
-          <button>Respository</button>
         </div>
       </div>
       <div className="project-container">
         <div className="project-info">
           <h4>App name</h4>
           <p>description</p>
+          <ul>
+            <li>Repository</li>
+            <li>Live Preview</li>
+          </ul>
         </div>
         <div>
           <img src={blogPic} alt="" />
-          <button>Live Preview</button>
-          <button>Respository</button>
         </div>
       </div>
       <div className="project-container">
         <div className="project-info">
           <h4>App name</h4>
           <p>description</p>
+          <ul>
+            <li>Repository</li>
+            <li>Live Preview</li>
+          </ul>
         </div>
         <div>
           <img src={storePic} alt="" />
-          <button>Live Preview</button>
-          <button>Respository</button>
         </div>
       </div>
       <div className="project-container">
         <div className="project-info">
           <h4>App name</h4>
           <p>description</p>
+          <ul>
+            <li>Repository</li>
+            <li>Live Preview</li>
+          </ul>
         </div>
         <div>
           <img src={membersPic} alt="" />
-          <button>Live Preview</button>
-          <button>Respository</button>
         </div>
       </div>
       <div className="project-container">
         <div className="project-info">
           <h4>App name</h4>
           <p>description</p>
+          <ul>
+            <li>Repository</li>
+            <li>Live Preview</li>
+          </ul>
         </div>
         <div>
           <img src={pokemonPic} alt="" />
-          <button>Live Preview</button>
-          <button>Respository</button>
         </div>
       </div>
       <div className="project-container">
         <div className="project-info">
           <h4>App name</h4>
           <p>description</p>
+          <ul>
+            <li>Repository</li>
+            <li>Live Preview</li>
+          </ul>
         </div>
         <div>
           <img src={cvPic} alt="" />
-          <button>Live Preview</button>
-          <button>Respository</button>
         </div>
       </div>
     </section>
