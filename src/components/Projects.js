@@ -10,9 +10,7 @@ const Projects = () => {
     <section>
       <h3>Projects</h3>
       <div className="project-container">
-        <div>
-          <img src={waldoPic} alt="" />
-        </div>
+        <img src={waldoPic} alt="" />
         <div className="project-info">
           <h4>Where's Waldo?</h4>
           <p>description</p>
@@ -39,9 +37,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project-container">
-        <div>
-          <img src={blogPic} alt="" />
-        </div>
+        <img src={blogPic} alt="" />
         <div className="project-info">
           <h4>Cap'n Hook's Blog</h4>
           <p>description</p>
@@ -68,9 +64,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project-container">
-        <div>
-          <img src={storePic} alt="" />
-        </div>
+        <img src={storePic} alt="" />
         <div className="project-info">
           <h4>Luke's Store</h4>
           <p>description</p>
@@ -97,9 +91,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project-container">
-        <div>
-          <img src={membersPic} alt="" />
-        </div>
+        <img src={membersPic} alt="" />
         <div className="project-info">
           <h4>Member's Only</h4>
           <p>description</p>
@@ -126,9 +118,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project-container">
-        <div>
-          <img src={pokemonPic} alt="" />
-        </div>
+        <img src={pokemonPic} alt="" />
         <div className="project-info">
           <h4>Memory Game</h4>
           <p>description</p>
@@ -155,9 +145,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project-container">
-        <div>
-          <img src={cvPic} alt="" />
-        </div>
+        <img src={cvPic} alt="" />
         <div className="project-info">
           <h4>CV Creator</h4>
           <p>description</p>
