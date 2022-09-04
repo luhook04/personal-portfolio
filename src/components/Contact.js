@@ -1,7 +1,11 @@
 const Contact = () => {
   return (
     <section id="contact">
-      <h1>Contact</h1>
+      <div className="flex-header">
+        <div></div>
+        <h1>Contact</h1>
+        <div></div>
+      </div>
     </section>
   );
 };

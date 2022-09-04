@@ -8,7 +8,11 @@ import waldoPic from "../assets/waldo.jpg";
 const Projects = () => {
   return (
     <section id="projects">
-      <h1>Projects</h1>
+      <div className="flex-header">
+        <div></div>
+        <h1>Projects</h1>
+        <div></div>
+      </div>
       <div className="project-container">
         <img src={waldoPic} alt="" />
         <div className="project-info">

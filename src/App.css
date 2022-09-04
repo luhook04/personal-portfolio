@@ -92,6 +92,8 @@ h1 {
   font-size: 1.6rem;
   font-family: "Roboto";
   font-weight: 800;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .about-info img {
@@ -166,4 +168,19 @@ h2 {
 .welcome-content {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.flex-header {
+  display: flex;
+  align-content: center;
+  margin-top: 50px;
+}
+
+.flex-header div {
+  display: flex;
+  flex-grow: 1;
+  height: 2px;
+  align-self: center;
+  margin: 0 20px;
+  background-color: #503181;
 }

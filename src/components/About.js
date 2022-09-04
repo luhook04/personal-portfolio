@@ -3,7 +3,11 @@ import placeHolderPhoto from "../assets/pic.jpg";
 const About = () => {
   return (
     <section id="about" className="about-content">
-      <h1>About</h1>
+      <div className="flex-header">
+        <div></div>
+        <h1>About</h1>
+        <div></div>
+      </div>
       <div className="about-container">
         <div className="about-info">
           <img src={placeHolderPhoto} alt="null" className="about-photo" />
