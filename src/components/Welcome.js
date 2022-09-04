@@ -1,8 +1,8 @@
 const Welcome = () => {
   return (
     <section className="welcome-content">
-      <h1>Luke Hook</h1>
-      <h2>Full Stack Web Developer</h2>
+      <p>Luke Hook</p>
+      <p>Full Stack Developer</p>
     </section>
   );
 };

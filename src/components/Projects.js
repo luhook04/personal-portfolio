@@ -7,14 +7,14 @@ import waldoPic from "../assets/waldo.jpg";
 
 const Projects = () => {
   return (
-    <section>
-      <h3>Projects</h3>
+    <section id="projects">
+      <h1>Projects</h1>
       <div className="project-container">
         <img src={waldoPic} alt="" />
         <div className="project-info">
-          <h4>Where's Waldo?</h4>
+          <h2>Where's Waldo?</h2>
           <p>description</p>
-          <ul>
+          <ul className="project-links">
             <li>
               <a
                 href="https://github.com/luhook04/wheres-waldo"
@@ -39,9 +39,9 @@ const Projects = () => {
       <div className="project-container">
         <img src={blogPic} alt="" />
         <div className="project-info">
-          <h4>Cap'n Hook's Blog</h4>
+          <h2>Cap'n Hook's Blog</h2>
           <p>description</p>
-          <ul>
+          <ul className="project-links">
             <li>
               <a
                 href="https://github.com/luhook04/blog-rest"
@@ -66,9 +66,9 @@ const Projects = () => {
       <div className="project-container">
         <img src={storePic} alt="" />
         <div className="project-info">
-          <h4>Luke's Store</h4>
+          <h2>Luke's Store</h2>
           <p>description</p>
-          <ul>
+          <ul className="project-links">
             <li>
               <a
                 href="https://github.com/luhook04/lukes-store"
@@ -93,9 +93,9 @@ const Projects = () => {
       <div className="project-container">
         <img src={membersPic} alt="" />
         <div className="project-info">
-          <h4>Member's Only</h4>
+          <h2>Member's Only</h2>
           <p>description</p>
-          <ul>
+          <ul className="project-links">
             <li>
               <a
                 href="https://github.com/luhook04/members-only"
@@ -120,9 +120,9 @@ const Projects = () => {
       <div className="project-container">
         <img src={pokemonPic} alt="" />
         <div className="project-info">
-          <h4>Memory Game</h4>
+          <h2>Memory Game</h2>
           <p>description</p>
-          <ul>
+          <ul className="project-links">
             <li>
               <a
                 href="https://github.com/luhook04/memory-card"
@@ -147,9 +147,9 @@ const Projects = () => {
       <div className="project-container">
         <img src={cvPic} alt="" />
         <div className="project-info">
-          <h4>CV Creator</h4>
+          <h2>CV Creator</h2>
           <p>description</p>
-          <ul>
+          <ul className="project-links">
             <li>
               <a
                 href="https://github.com/luhook04/cv-app"

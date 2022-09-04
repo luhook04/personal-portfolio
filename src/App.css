@@ -1,12 +1,169 @@
-img {
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Playfair+Display:ital,wght@1,700&family=Roboto&display=swap");
+.project-container img {
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
   width: 90%;
-  max-width: 600px;
+  max-width: 580px;
   height: auto;
+}
+body {
+  background-color: #fbeaff;
+}
+
+header {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+header a {
+  color: #503181;
+  font-weight: bolder;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  display: flex;
+}
+
+.nav-links {
+  align-items: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+}
+
+.nav-links li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+}
+
+nav img {
+  height: 80px;
+}
+
+.tech-icon {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.skills {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-info {
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  width: 85%;
+  background-color: #503181;
+  color: #fbeaff;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+  color: #503181;
+  font-size: 1.6rem;
+  font-family: "Roboto";
+  font-weight: 800;
+}
+
+.about-info img {
+  margin-top: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+span {
+  margin-top: 3px;
+  font-size: 0.6rem;
+}
+
+.skills i {
+  font-size: 3rem;
+}
+
+.about-photo {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
 }
 
 .project-container {
-  width: 75%;
+  width: 85%;
   display: flex;
+  flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+}
+
+.project-info {
+  margin-top: -10px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  color: #fbeaff;
+  background-color: #503181;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.project-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.project-links a {
+  color: #fbeaff;
+  text-decoration: none;
+}
+
+h2 {
+  padding-top: 5px;
+  font-size: 1.2rem;
+  margin: auto;
+}
+
+.welcome-content p {
+  text-align: center;
+  font-size: 8vw;
+  color: #503181;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  font-family: "Playfair Display";
+}
+
+.welcome-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }

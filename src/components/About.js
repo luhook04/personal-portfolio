@@ -2,11 +2,11 @@ import placeHolderPhoto from "../assets/pic.jpg";
 
 const About = () => {
   return (
-    <section className="about-content">
-      <h3>About</h3>
-      <div>
-        <div>
-          <img src={placeHolderPhoto} alt="null" />
+    <section id="about" className="about-content">
+      <h1>About</h1>
+      <div className="about-container">
+        <div className="about-info">
+          <img src={placeHolderPhoto} alt="null" className="about-photo" />
           <p>lorem ipsum dolor</p>
         </div>
         <div className="skills">
