@@ -17,7 +17,11 @@ const Projects = () => {
         <img src={waldoPic} alt="" />
         <div className="project-info">
           <h2>Where's Waldo?</h2>
-          <p>description</p>
+          <p>
+            Developed with React for the frontend and Firebase for the backend,
+            Where's Waldo? is a game that keeps track of how long it takes for
+            the user to find all four characters in the picture.
+          </p>
           <ul className="project-links">
             <li>
               <a
@@ -44,7 +48,12 @@ const Projects = () => {
         <img src={blogPic} alt="" />
         <div className="project-info">
           <h2>Cap'n Hook's Blog</h2>
-          <p>description</p>
+          <p>
+            Cap'n Hook's Blog is a MERN stack blogging website. There is a
+            client side website that allows users to read blog posts and add
+            comments, while the CMS website allows the admin to do CRUD
+            operations on the posts and comments.
+          </p>
           <ul className="project-links">
             <li>
               <a
@@ -71,7 +80,12 @@ const Projects = () => {
         <img src={storePic} alt="" />
         <div className="project-info">
           <h2>Luke's Store</h2>
-          <p>description</p>
+          <p>
+            Developed with React, Luke's Store is an online store that fetches
+            it's products from Fake Store API. The users can add and remove
+            items from their cart, and this app will keep track of their total
+            cost and items selected.
+          </p>
           <ul className="project-links">
             <li>
               <a
@@ -98,7 +112,11 @@ const Projects = () => {
         <img src={membersPic} alt="" />
         <div className="project-info">
           <h2>Member's Only</h2>
-          <p>description</p>
+          <p>
+            Member's Only was built with Express using modern authentication and
+            security tactics. It is a message board that hides specific message
+            information depending on the users authentication level.
+          </p>
           <ul className="project-links">
             <li>
               <a
@@ -125,7 +143,11 @@ const Projects = () => {
         <img src={pokemonPic} alt="" />
         <div className="project-info">
           <h2>Memory Game</h2>
-          <p>description</p>
+          <p>
+            This a Pokémon memory game built using React and random pokémon
+            fetched from the PokéAPI. The goal of the game is to click on all
+            twelve pokémon without repeating picks.
+          </p>
           <ul className="project-links">
             <li>
               <a
@@ -152,7 +174,11 @@ const Projects = () => {
         <img src={cvPic} alt="" />
         <div className="project-info">
           <h2>CV Creator</h2>
-          <p>description</p>
+          <p>
+            CV Creator is a React app that has users input information into a
+            form on one side of the page, with a formatted CV being displayed on
+            the other side.
+          </p>
           <ul className="project-links">
             <li>
               <a
