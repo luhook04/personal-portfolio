@@ -11,7 +11,17 @@ const About = () => {
       <div className="about-container">
         <div className="about-info">
           <img src={placeHolderPhoto} alt="null" className="about-photo" />
-          <p>lorem ipsum dolor</p>
+          <p>Hi, I'm Luke!</p>
+          <p>
+            I'm a self-taught full stack developer that lives in Indianapolis. I
+            gravitated towards programming because of my love of solving
+            problems and the idea of always having more to learn.
+          </p>
+          <p>
+            In my free time, I love to read, play with my dog, and watch/play
+            sports of any kind. I also really enjoy spending time in nature and
+            hiking.
+          </p>
         </div>
         <div className="skills">
           <div className="tech-icon">

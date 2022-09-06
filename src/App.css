@@ -12,6 +12,8 @@ body {
 }
 
 header {
+  box-shadow: rgb(0 0 0 / 10%) 0px 1px 3px 0px, rgb(0 0 0 / 6%) 0px 1px 2px 0px;
+
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -183,4 +185,41 @@ h2 {
   align-self: center;
   margin: 0 20px;
   background-color: #503181;
+}
+
+@media (min-width: 1085px) {
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    column-gap: 20px;
+  }
+
+  .project-container img {
+    border-radius: 4px;
+    width: 50%;
+    height: auto;
+  }
+
+  .project-info {
+    margin: 0;
+    max-height: 180px;
+    min-width: 450px;
+  }
+
+  .project-container:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
 }

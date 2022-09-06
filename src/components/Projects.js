@@ -45,7 +45,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project-container">
-        <img src={blogPic} alt="" />
+        <img src={blogPic} alt=""></img>
         <div className="project-info">
           <h2>Cap'n Hook's Blog</h2>
           <p>
