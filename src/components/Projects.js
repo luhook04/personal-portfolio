@@ -61,7 +61,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Live Application <span>&#8599;</span>
+                Live App <span>&#8599;</span>
               </a>
             </li>
           </ul>
@@ -88,7 +88,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Live Application <span>&#8599;</span>
+                Live App <span>&#8599;</span>
               </a>
             </li>
           </ul>
@@ -142,7 +142,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Live Application <span>&#8599;</span>
+                Live App <span>&#8599;</span>
               </a>
             </li>
           </ul>
@@ -169,7 +169,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Live Application <span>&#8599;</span>
+                Live App <span>&#8599;</span>
               </a>
             </li>
           </ul>
