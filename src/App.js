@@ -16,7 +16,7 @@ const App = () => {
         <Projects />
         <Contact />
       </main>
-      <Footer />
+      <Footer></Footer>
     </div>
   );
 };

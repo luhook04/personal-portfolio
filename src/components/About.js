@@ -1,4 +1,4 @@
-import placeHolderPhoto from "../assets/pic.jpg";
+import mePhoto from "../assets/me.jpg";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
       </div>
       <div className="about-container">
         <div className="about-info">
-          <img src={placeHolderPhoto} alt="null" className="about-photo" />
+          <img src={mePhoto} alt="null" className="about-photo" />
           <p>Hi, I'm Luke!</p>
           <p>
             I'm a self-taught full stack developer that lives in Indianapolis. I

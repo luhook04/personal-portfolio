@@ -1,8 +1,10 @@
 const Welcome = () => {
   return (
     <section id="welcome" className="welcome-content">
-      <p>Luke Hook</p>
-      <p>Full Stack Developer</p>
+      <div>
+        <p className="my-name">Luke Hook</p>
+        <p className="my-job">Full Stack Developer</p>
+      </div>
     </section>
   );
 };
