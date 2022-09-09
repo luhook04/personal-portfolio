@@ -128,10 +128,6 @@ nav img:hover {
 }
 
 .contact-content {
-  align-items: center;
-  justify-content: center;
-  column-gap: 25px;
-  display: flex;
   color: white;
   background-color: #503181;
   width: 45%;
@@ -141,18 +137,33 @@ nav img:hover {
   border-radius: 4px;
 }
 
-.contact-content a {
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.contact-links {
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  column-gap: 25px;
+  display: flex;
+}
+
+.contact-links a {
   text-decoration: none;
 }
 
-.contact-content a i {
+.contact-links i {
   color: white;
   font-size: 35px;
   transition-property: color;
   transition-duration: 0.7s;
 }
 
-.contact-content i:hover {
+.contact-links i:hover {
   color: #7cdce9;
 }
 
@@ -173,7 +184,7 @@ h1 {
   margin-right: auto;
 }
 
-span {
+.tech-icon span {
   margin-top: 3px;
   font-size: 0.6rem;
 }
@@ -243,7 +254,8 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 90px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .flex-header {

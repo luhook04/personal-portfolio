@@ -7,18 +7,25 @@ const Contact = () => {
         <div></div>
       </div>
       <div className="contact-content">
-        <a href="google.com">
-          <i className="devicon-github-original"></i>
-        </a>
-        <a href="google.com">
-          <i className="devicon-linkedin-plain"></i>
-        </a>
-        <a href="google.com">
-          <i className="fa-solid fa-envelope"></i>
-        </a>
-        <a href="google.com">
+        <div className="contact-info">
           <i className="fa-solid fa-phone"></i>
-        </a>
+          <span>317-503-0939</span>
+        </div>
+        <div className="contact-info">
+          <i className="fa-solid fa-envelope"></i>
+          <span>lukehook04@gmail.com</span>
+        </div>
+        <div className="contact-links">
+          <a href="google.com">
+            <i className="fa-solid fa-envelope"></i>
+          </a>
+          <a href="google.com">
+            <i className="devicon-github-original"></i>
+          </a>
+          <a href="google.com">
+            <i className="devicon-linkedin-plain"></i>
+          </a>
+        </div>
       </div>
     </section>
   );
