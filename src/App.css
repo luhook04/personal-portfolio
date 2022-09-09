@@ -35,11 +35,13 @@ nav div {
 }
 
 nav {
+  width: 100%;
   box-shadow: rgb(0 0 0 / 10%) 0px 1px 3px 0px, rgb(0 0 0 / 6%) 0px 1px 2px 0px;
   animation: 1.3s ease-out 0s 1 slideInFromTop;
-  width: 100%;
+
   position: fixed;
   top: 0;
+
   background-color: white;
 }
 
@@ -48,12 +50,11 @@ nav {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
-  width: 90%;
-}
-
-.nav-links li {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-left: 0;
+  column-gap: 10px;
 }
 
 .nav-links li a {
@@ -128,13 +129,15 @@ nav img:hover {
 }
 
 .contact-content {
+  text-align: center;
   color: white;
   background-color: #503181;
-  width: 45%;
+  width: 55%;
   margin-left: auto;
   margin-right: auto;
   padding: 15px;
   border-radius: 4px;
+  min-width: 330px;
 }
 
 .contact-info {
@@ -324,6 +327,8 @@ h2 {
     justify-content: center;
     margin-bottom: 50px;
     column-gap: 20px;
+    margin-right: auto;
+    margin-right: auto;
   }
 
   .project-container img {
@@ -335,7 +340,7 @@ h2 {
   .project-info {
     margin: 0;
     max-height: 180px;
-    min-width: 450px;
+    min-width: 350px;
   }
 
   .project-container:nth-child(odd) {
