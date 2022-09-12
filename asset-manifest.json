@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.1a878296.css",
+    "main.js": "/personal-portfolio/static/js/main.9c378f8e.js",
+    "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/me.jpg": "/personal-portfolio/static/media/me.63a46fc00a427371e7b1.jpg",
+    "static/media/cv.jpg": "/personal-portfolio/static/media/cv.bf3bc33d98d957965ce8.jpg",
+    "static/media/pokemon.jpg": "/personal-portfolio/static/media/pokemon.115ebcf11d487d3881e3.jpg",
+    "static/media/store.jpg": "/personal-portfolio/static/media/store.581bd24e3d31540661ed.jpg",
+    "static/media/blog.jpg": "/personal-portfolio/static/media/blog.b99ade69dc09b11c67c8.jpg",
+    "static/media/members-only.jpg": "/personal-portfolio/static/media/members-only.cc0960f24fae8260e253.jpg",
+    "static/media/waldo.jpg": "/personal-portfolio/static/media/waldo.68bc2e0c4f5717b519bd.jpg",
+    "static/media/logo1.png": "/personal-portfolio/static/media/logo1.781a94f3f6aa2cd63584.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.1a878296.css.map": "/personal-portfolio/static/css/main.1a878296.css.map",
+    "main.9c378f8e.js.map": "/personal-portfolio/static/js/main.9c378f8e.js.map",
+    "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a878296.css",
+    "static/js/main.9c378f8e.js"
+  ]
+}
