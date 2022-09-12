@@ -23,7 +23,7 @@ const Contact = () => {
           <a href="https://www.linkedin.com/in/luke-hook-47676916b/">
             <i className="devicon-linkedin-plain"></i>
           </a>
-          <a href="mailto: luasdf@gmail.com">
+          <a href="mailto: lukehook04@gmail.com">
             <i className="fa-solid fa-envelope"></i>
           </a>
         </div>
