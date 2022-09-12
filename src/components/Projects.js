@@ -20,7 +20,8 @@ const Projects = () => {
           <p>
             Developed with React for the frontend and Firebase for the backend,
             Where's Waldo? is a game that keeps track of how long it takes for
-            the user to find all four characters in the picture.
+            the user to find all four characters in the picture. Finish quickly
+            to get your name up on the leaderboards!
           </p>
           <ul className="project-links">
             <li>
@@ -51,7 +52,7 @@ const Projects = () => {
           <p>
             Cap'n Hook's Blog is a MERN stack blogging website. There is a
             client side website that allows users to read blog posts and add
-            comments, while the CMS website allows the admin to do CRUD
+            comments, while the CMS website allows the admin to preform CRUD
             operations on the posts and comments.
           </p>
           <ul className="project-links">
@@ -81,10 +82,10 @@ const Projects = () => {
         <div className="project-info">
           <h2>Luke's Store</h2>
           <p>
-            Developed with React, Luke's Store is an online store that fetches
-            it's products from Fake Store API. The users can add and remove
-            items from their cart, and this app will keep track of their total
-            cost and items selected.
+            Developed with React, Luke's Store is a fake online store that
+            fetches it's products from Fake Store API. The users can add and
+            remove items from their cart, and this app will keep track of their
+            total cost and items selected.
           </p>
           <ul className="project-links">
             <li>
@@ -144,9 +145,9 @@ const Projects = () => {
         <div className="project-info">
           <h2>Memory Game</h2>
           <p>
-            This a Pokémon memory game built using React and random pokémon
-            fetched from the PokéAPI. The goal of the game is to click on all
-            twelve pokémon without repeating picks.
+            This a Pokémon memory game built using React. It displays random
+            pokémon fetched from the PokéAPI. The goal of the game is to click
+            on all twelve pokémon without repeating picks.
           </p>
           <ul className="project-links">
             <li>
