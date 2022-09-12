@@ -154,7 +154,7 @@ h1 {
   text-align: center;
   color: #503181;
   font-size: 1.6rem;
-  font-family: "Roboto";
+  font-family: "Roboto", Tahoma, Verdana, sans-serif;
   font-weight: 800;
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -194,7 +194,7 @@ h1 {
   margin-top: -10px;
   margin-bottom: 40px;
   border-radius: 5px;
-  font-family: "Roboto";
+  font-family: "Roboto", Tahoma, Verdana, sans-serif;
   color: white;
   background-color: #503181;
   display: flex;
@@ -229,7 +229,7 @@ h2 {
   color: #503181;
   margin-bottom: 25px;
   margin-top: 25px;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", "Brush Script MT", cursive;
 }
 
 .welcome-content {
