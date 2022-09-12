@@ -54,7 +54,7 @@ nav {
   margin-right: auto;
   width: 100%;
   padding-left: 0;
-  column-gap: 10px;
+  column-gap: 15px;
 }
 
 .nav-links li a {
@@ -135,6 +135,7 @@ nav img:hover {
   width: 55%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
   padding: 15px;
   border-radius: 4px;
   min-width: 330px;
@@ -253,7 +254,7 @@ h2 {
 }
 
 .welcome-content {
-  width: 75%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 90px;

@@ -14,8 +14,10 @@ const About = () => {
           <p>Hi, I'm Luke!</p>
           <p>
             I'm a self-taught full stack developer that lives in Indianapolis. I
-            gravitated towards programming because of my love of solving
-            problems and the idea of always having more to learn.
+            have been learning how to code using a multitude of different
+            resources since September 2021. I gravitated towards programming
+            because of my love of solving problems and the idea of always having
+            more to learn.
           </p>
           <p>
             In my free time, I love to read, play with my dog, and watch/play

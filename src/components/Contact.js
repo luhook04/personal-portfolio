@@ -17,13 +17,13 @@ const Contact = () => {
           <span>lukehook04@gmail.com</span>
         </div>
         <div className="contact-links">
-          <a href="google.com">
+          <a href="https://github.com/luhook04">
             <i className="devicon-github-original"></i>
           </a>
-          <a href="google.com">
+          <a href="https://www.linkedin.com/in/luke-hook-47676916b/">
             <i className="devicon-linkedin-plain"></i>
           </a>
-          <a href="google.com">
+          <a href="mailto: luasdf@gmail.com">
             <i className="fa-solid fa-envelope"></i>
           </a>
         </div>

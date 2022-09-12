@@ -5,7 +5,7 @@ const Header = () => {
     <header>
       <nav>
         <div>
-          <a href="#welcome">
+          <a href="#top">
             <img src={logo} alt="Back to top" />
           </a>
           <ul className="nav-links">
