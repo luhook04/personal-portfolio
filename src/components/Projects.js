@@ -30,7 +30,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Repository <span>&#8599;</span>
+                Repository <span>&#8599;&#xFE0E;</span>
               </a>
             </li>
             <li>
@@ -39,7 +39,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Live App <span>&#8599;</span>
+                Live App <span>&#8599;&#xFE0E;</span>
               </a>
             </li>
           </ul>
@@ -62,7 +62,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Repository <span>&#8599;</span>
+                Repository <span>&#8599;&#xFE0E;</span>
               </a>
             </li>
             <li>
@@ -71,7 +71,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Live App <span>&#8599;</span>
+                Live App <span>&#8599;&#xFE0E;</span>
               </a>
             </li>
           </ul>
@@ -94,7 +94,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Repository <span>&#8599;</span>
+                Repository <span>&#8599;&#xFE0E;</span>
               </a>
             </li>
             <li>
@@ -103,7 +103,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Live App <span>&#8599;</span>
+                Live App <span>&#8599;&#xFE0E;</span>
               </a>
             </li>
           </ul>
@@ -125,7 +125,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Repository <span>&#8599;</span>
+                Repository <span>&#8599;&#xFE0E;</span>
               </a>
             </li>
             <li>
@@ -134,7 +134,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Live App <span>&#8599;</span>
+                Live App <span>&#8599;&#xFE0E;</span>
               </a>
             </li>
           </ul>
@@ -165,7 +165,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Live App <span>&#8599;</span>
+                Live App <span>&#8599;&#xFE0E;</span>
               </a>
             </li>
           </ul>
@@ -187,7 +187,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Repository <span>&#8599;</span>
+                Repository <span>&#8599;&#xFE0E;</span>
               </a>
             </li>
             <li>
@@ -196,7 +196,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Live App <span>&#8599;</span>
+                Live App <span>&#8599;&#xFE0E;</span>
               </a>
             </li>
           </ul>
