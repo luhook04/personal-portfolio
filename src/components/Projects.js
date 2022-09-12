@@ -156,7 +156,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                Repository <span>&#8599;</span>
+                Repository <span>&#8599;&#xFE0E;</span>
               </a>
             </li>
             <li>
