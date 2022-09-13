@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.c93c9bc2.css",
-    "main.js": "/personal-portfolio/static/js/main.bc0d1eda.js",
-    "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
-    "static/media/me.jpg": "/personal-portfolio/static/media/me.63a46fc00a427371e7b1.jpg",
-    "static/media/cv.jpg": "/personal-portfolio/static/media/cv.bf3bc33d98d957965ce8.jpg",
-    "static/media/pokemon.jpg": "/personal-portfolio/static/media/pokemon.115ebcf11d487d3881e3.jpg",
-    "static/media/store.jpg": "/personal-portfolio/static/media/store.581bd24e3d31540661ed.jpg",
-    "static/media/blog.jpg": "/personal-portfolio/static/media/blog.b99ade69dc09b11c67c8.jpg",
-    "static/media/members-only.jpg": "/personal-portfolio/static/media/members-only.cc0960f24fae8260e253.jpg",
-    "static/media/waldo.jpg": "/personal-portfolio/static/media/waldo.68bc2e0c4f5717b519bd.jpg",
-    "static/media/logo1.png": "/personal-portfolio/static/media/logo1.781a94f3f6aa2cd63584.png",
-    "index.html": "/personal-portfolio/index.html",
-    "main.c93c9bc2.css.map": "/personal-portfolio/static/css/main.c93c9bc2.css.map",
-    "main.bc0d1eda.js.map": "/personal-portfolio/static/js/main.bc0d1eda.js.map",
-    "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
+    "main.css": "/static/css/main.c93c9bc2.css",
+    "main.js": "/static/js/main.803c8a11.js",
+    "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
+    "static/media/me.jpg": "/static/media/me.63a46fc00a427371e7b1.jpg",
+    "static/media/cv.jpg": "/static/media/cv.bf3bc33d98d957965ce8.jpg",
+    "static/media/pokemon.jpg": "/static/media/pokemon.115ebcf11d487d3881e3.jpg",
+    "static/media/store.jpg": "/static/media/store.581bd24e3d31540661ed.jpg",
+    "static/media/blog.jpg": "/static/media/blog.b99ade69dc09b11c67c8.jpg",
+    "static/media/members-only.jpg": "/static/media/members-only.cc0960f24fae8260e253.jpg",
+    "static/media/waldo.jpg": "/static/media/waldo.68bc2e0c4f5717b519bd.jpg",
+    "static/media/logo1.png": "/static/media/logo1.781a94f3f6aa2cd63584.png",
+    "index.html": "/index.html",
+    "main.c93c9bc2.css.map": "/static/css/main.c93c9bc2.css.map",
+    "main.803c8a11.js.map": "/static/js/main.803c8a11.js.map",
+    "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c93c9bc2.css",
-    "static/js/main.bc0d1eda.js"
+    "static/js/main.803c8a11.js"
   ]
 }
