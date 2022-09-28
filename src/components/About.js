@@ -21,8 +21,10 @@ const About = () => {
           </p>
           <p>
             In my free time, I love to read, play with my dog, and watch/play
-            sports of any kind. I also really enjoy spending time hiking out in
-            nature and hanging out with my family.
+            sports of any kind. I also enjoy spending time in nature and hanging
+            out with my friends and family. I've also spent a lot of time
+            connecting with other programmers on The Odin Project Discord
+            channel to hang out with people who share my passion.
           </p>
         </div>
         <div className="skills">
