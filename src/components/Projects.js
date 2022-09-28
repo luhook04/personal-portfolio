@@ -18,7 +18,7 @@ const Projects = () => {
         <div className="project-info">
           <h2>Where's Waldo?</h2>
           <p>
-            Developed with React for the frontend and Firebase for the backend,
+            Developed with React for the front end and Firebase for the backend,
             Where's Waldo? is a game that keeps track of how long it takes for
             the user to find all four characters in the picture. Finish quickly
             to get your name up on the leaderboards!
@@ -50,10 +50,10 @@ const Projects = () => {
         <div className="project-info">
           <h2>Cap'n Hook's Blog</h2>
           <p>
-            Cap'n Hook's Blog is a MERN stack blogging website. There is a
-            client side website that allows users to read blog posts and add
-            comments, while the CMS website allows the admin to preform CRUD
-            operations on the posts and comments.
+            Cap'n Hook's Blog is a MERN stack blogging website. The client-side
+            website allows users to read blog posts and add comments, while the
+            CMS website permits the admin to perform CRUD operations on the blog
+            posts and comments.
           </p>
           <ul className="project-links">
             <li>
@@ -83,7 +83,7 @@ const Projects = () => {
           <h2>Luke's Store</h2>
           <p>
             Developed with React, Luke's Store is a fake online store that
-            fetches it's products from Fake Store API. The users can add and
+            fetches its products from Fake Store API. The user can add and
             remove items from their cart, and this app will keep track of their
             total cost and items selected.
           </p>
@@ -112,11 +112,12 @@ const Projects = () => {
       <div className="project-container">
         <img src={membersPic} alt="" />
         <div className="project-info">
-          <h2>Member's Only</h2>
+          <h2>Members Only</h2>
           <p>
-            Member's Only was built with Express using modern authentication and
-            security tactics. It is a message board that hides specific message
-            information depending on the users authentication level.
+            Members Only is a forum app built with Express using modern
+            authentication and security tactics. It is a message board that
+            hides specific message information depending on the user's
+            authentication level.
           </p>
           <ul className="project-links">
             <li>
@@ -145,9 +146,9 @@ const Projects = () => {
         <div className="project-info">
           <h2>Memory Game</h2>
           <p>
-            This a Pokémon memory game built using React. It displays random
-            pokémon fetched from the PokéAPI. The goal of the game is to click
-            on all twelve pokémon without repeating picks.
+            This app is a Pokémon memory game built using React. It displays
+            random pokémon fetched from the PokéAPI. The goal is to click on all
+            twelve pokémon without repeating picks. Can you catch 'em all?
           </p>
           <ul className="project-links">
             <li>
@@ -176,9 +177,9 @@ const Projects = () => {
         <div className="project-info">
           <h2>CV Creator</h2>
           <p>
-            CV Creator is a React app that has users input information into a
-            form on one side of the page, with a formatted CV being displayed on
-            the other side.
+            CV Creator is a React app where the user will input their
+            information into a form on one side of the page, and a formatted CV
+            will display on the other.
           </p>
           <ul className="project-links">
             <li>
