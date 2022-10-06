@@ -1,3 +1,5 @@
+import ContactForm from './ContactForm';
+
 const Contact = () => {
   return (
     <section id="contact" className="contact">
@@ -8,6 +10,7 @@ const Contact = () => {
       </div>
       <div className="contact-content">
         <p>Please contact me if you'd like to get in touch!</p>
+        <ContactForm />
         <div className="contact-info">
           <i className="fa-solid fa-phone"></i>
           <span>317-503-0939</span>
