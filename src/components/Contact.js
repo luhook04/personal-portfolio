@@ -11,14 +11,6 @@ const Contact = () => {
       <div className="contact-content">
         <p>Please contact me if you'd like to get in touch!</p>
         <ContactForm />
-        <div className="contact-info">
-          <i className="fa-solid fa-phone"></i>
-          <span>317-503-0939</span>
-        </div>
-        <div className="contact-info">
-          <i className="fa-solid fa-envelope"></i>
-          <span>lukehook04@gmail.com</span>
-        </div>
         <div className="contact-links">
           <a href="https://github.com/luhook04">
             <i className="devicon-github-original"></i>
