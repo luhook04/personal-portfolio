@@ -9,7 +9,7 @@ const Contact = () => {
         <div></div>
       </div>
       <div className="contact-content">
-        <p>Please contact me if you'd like to get in touch!</p>
+        <p>Feel free to contact me if you'd like to get in touch!</p>
         <ContactForm />
         <div className="contact-links">
           <a href="https://github.com/luhook04">
