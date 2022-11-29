@@ -1,14 +1,14 @@
-import logo from "../assets/logo1.png";
+import logo from '../assets/logo1.png';
 
 const Header = () => {
   return (
-    <header>
+    <header className="bg-white">
       <nav>
-        <div>
+        <div className="w-10/12 mx-auto flex justify-between">
           <a href="#top">
-            <img src={logo} alt="Back to top" />
+            <img src={logo} alt="Back to top" className="h-24 w-24" />
           </a>
-          <ul className="nav-links">
+          <ul className="flex items-center gap-x-10 nav-links">
             <li>
               <a href="#about">About</a>
             </li>
