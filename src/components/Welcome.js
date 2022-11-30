@@ -1,7 +1,7 @@
 const Welcome = () => {
   return (
-    <section className="text-center mt-12 ">
-      <div className="text-slate-100">
+    <section className="text-center flex h-screen">
+      <div className="text-slate-100 m-auto">
         <div className="font-Welcome text-8xl block glow-container">
           <span className="animate-slide inline-block" style={{ '--i': 1 }}>
             L
@@ -43,8 +43,8 @@ const Welcome = () => {
         <div className="wrapper">
           <ul className="words font-Change">
             <li className="word">Software Engineer</li>
-            <li className="word">Full Stack</li>
-            <li className="word">Animal Lover</li>
+            <li className="word">Technology Junkie</li>
+            <li className="word">Book Worm</li>
             <li className="word">Indy Sports Fan</li>
           </ul>
         </div>

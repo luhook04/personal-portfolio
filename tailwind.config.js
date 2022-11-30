@@ -7,6 +7,7 @@ module.exports = {
       fontFamily: {
         Welcome: ['Racing Sans One', 'cursive'],
         Change: ['Roboto', 'sans-serif'],
+        About: ['Montserrat', 'sans-serif'],
       },
       animation: {
         slide: 'slide 1.7s ease-out',
