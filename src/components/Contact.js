@@ -8,18 +8,20 @@ const Contact = () => {
         <h1>Contact</h1>
         <div></div>
       </div>
-      <div className="contact-content">
-        <p>Feel free to contact me if you'd like to get in touch!</p>
+      <div className="contact-content mt-7">
+        <p className="mt-3 mb-4">
+          Feel free to contact me if you'd like to get in touch
+        </p>
         <ContactForm />
         <div className="contact-links">
-          <a href="https://github.com/luhook04">
+          <a href="https://github.com/luhook04" aria-label="LinkedIn">
             <i className="devicon-github-original"></i>
           </a>
-          <a href="https://www.linkedin.com/in/luke-hook-47676916b/">
+          <a
+            href="https://www.linkedin.com/in/luke-hook-47676916b/"
+            aria-label="LinkedIn"
+          >
             <i className="devicon-linkedin-plain"></i>
-          </a>
-          <a href="mailto: lukehook04@gmail.com">
-            <i className="fa-solid fa-envelope"></i>
           </a>
         </div>
       </div>

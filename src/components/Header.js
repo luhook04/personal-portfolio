@@ -6,9 +6,9 @@ const Header = () => {
       <nav>
         <div className="w-10/12 mx-auto flex justify-between">
           <a href="#top">
-            <img src={logo} alt="Back to top" className="h-24 w-24" />
+            <img src={logo} alt="Back to top" className="h-20 w-20" />
           </a>
-          <ul className="flex items-center gap-x-10 nav-links">
+          <ul className="flex text-sm md:text-base items-center gap-x-3 md:gap-x-10 nav-links">
             <li>
               <a href="#about">About</a>
             </li>
