@@ -145,6 +145,7 @@ nav img {
   place-items: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  transform-origin: center;
 }
 .outer > * {
   grid-column: 1 / 1;
@@ -153,9 +154,12 @@ nav img {
 .outer .below {
   backface-visibility: hidden;
   z-index: 2;
+  transform: rotateX(0deg);
 }
+
 .outer .top {
   z-index: 1;
+  transform: rotateX(0deg);
 }
 
 .project-container img {
@@ -164,7 +168,7 @@ nav img {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  max-width: 580px;
+  max-width: 90%;
   height: auto;
 }
 
@@ -333,10 +337,6 @@ h2 {
   min-height: 200px;
 }
 
-.back {
-  transform: rotateY(180deg);
-}
-
 .project-links li a {
   display: inline-block;
 }
@@ -482,6 +482,7 @@ a span {
   .project-info {
     max-height: 300px;
     min-width: 350px;
+    max-width: 50%;
   }
 
   .project-container:nth-child(odd) {
