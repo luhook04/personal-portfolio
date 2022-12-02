@@ -10,7 +10,7 @@ const About = () => {
         <div></div>
       </div>
       <div className="about-container mt-20 mb-20 ">
-        <div className="about-info text-lg ">
+        <div className="about-info text-center text-s sm:text-lg sm:text-left  ">
           <div className="flip-box">
             <div className="outer">
               <div className="below bg-slate-900">

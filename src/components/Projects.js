@@ -17,7 +17,7 @@ const Projects = () => {
         <img src={waldoPic} alt="" />
         <div className="project-info">
           <h2>Where's Waldo?</h2>
-          <p className="my-3">
+          <p className="my-3 text-center text-sm sm:text-left sm:text-base">
             Developed with React for the front end and Firebase for the backend,
             Where's Waldo? is a game that keeps track of how long it takes for
             the user to find all four characters in the picture. Finish quickly
@@ -49,7 +49,7 @@ const Projects = () => {
         <img src={blogPic} alt=""></img>
         <div className="project-info">
           <h2>Cap'n Hook's Blog</h2>
-          <p className="my-3">
+          <p className="my-3 text-center text-sm sm:text-left sm:text-base">
             Cap'n Hook's Blog is a MERN stack blogging website. The client-side
             website allows users to read blog posts and add comments, while the
             CMS website permits the admin to perform CRUD operations on the blog
@@ -81,7 +81,7 @@ const Projects = () => {
         <img src={storePic} alt="" />
         <div className="project-info">
           <h2>Luke's Store</h2>
-          <p className="my-3">
+          <p className="my-3 text-center text-sm sm:text-left sm:text-base">
             Developed with React, Luke's Store is a fake online store that
             fetches its products from Fake Store API. The user can add and
             remove items from their cart, and this app will keep track of their
@@ -113,7 +113,7 @@ const Projects = () => {
         <img src={membersPic} alt="" />
         <div className="project-info">
           <h2>Members Only</h2>
-          <p className="my-3">
+          <p className="my-3 text-center text-sm sm:text-left sm:text-base">
             Members Only is a forum app built with Express using modern
             authentication and security tactics. It is a message board that
             hides specific message information depending on the user's
@@ -145,7 +145,7 @@ const Projects = () => {
         <img src={pokemonPic} alt="" />
         <div className="project-info">
           <h2>Memory Game</h2>
-          <p className="my-3">
+          <p className="my-3 text-center text-sm sm:text-left sm:text-base">
             This app is a Pokémon memory game built using React. It displays
             random pokémon fetched from the PokéAPI. The goal is to click on all
             twelve pokémon without repeating picks. Can you catch 'em all?
@@ -176,7 +176,7 @@ const Projects = () => {
         <img src={cvPic} alt="" />
         <div className="project-info">
           <h2>CV Creator</h2>
-          <p className="my-3">
+          <p className="my-3 text-center text-sm sm:text-left sm:text-base">
             CV Creator is a React app where the user will input their
             information into a form on one side of the page, and a formatted CV
             will display on the other side.
