@@ -335,13 +335,7 @@ h2 {
 .back {
   transform: rotateY(180deg);
 }
-.about-info:hover > .flip-box > .outer {
-  transform: rotateY(180deg);
-}
 
-.about-info:hover {
-  scale: 1.05;
-}
 .project-links li a {
   display: inline-block;
 }
@@ -405,6 +399,13 @@ a span {
 }
 
 @media (hover: hover) and (pointer: fine) {
+  .about-info:hover > .flip-box > .outer {
+    transform: rotateY(180deg);
+  }
+
+  .about-info:hover {
+    scale: 1.05;
+  }
   .nav-links a:hover {
     box-shadow: inset 100px 0 0 0 #3b4157;
     color: white;
