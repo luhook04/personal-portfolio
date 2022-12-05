@@ -1,6 +1,6 @@
 import cvPic from '../assets/cv.jpg';
 import membersPic from '../assets/members-only.jpg';
-import blogPic from '../assets/blog.jpg';
+import blogPic from '../assets/blog2.jpg';
 import pokemonPic from '../assets/pokemon.jpg';
 import storePic from '../assets/store.jpg';
 import waldoPic from '../assets/waldo.jpg';
