@@ -1,4 +1,4 @@
-import cvPic from '../assets/cv.jpg';
+import cvPic from '../assets/cv2.jpg';
 import membersPic from '../assets/members-only.jpg';
 import blogPic from '../assets/blog2.jpg';
 import pokemonPic from '../assets/pokemon.jpg';
