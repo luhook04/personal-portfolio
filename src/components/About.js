@@ -1,5 +1,5 @@
 import mePhoto from '../assets/me.jpeg';
-import avatarPhoto from '../assets/myAvatar.png';
+import avatarPhoto from '../assets/avatar.jpeg';
 
 const About = () => {
   return (
