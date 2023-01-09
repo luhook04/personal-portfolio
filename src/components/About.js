@@ -1,4 +1,4 @@
-import mePhoto from '../assets/me.jpg';
+import mePhoto from '../assets/me.jpeg';
 import avatarPhoto from '../assets/myAvatar.png';
 
 const About = () => {
@@ -14,10 +14,10 @@ const About = () => {
           <div className="flip-box">
             <div className="outer">
               <div className="below bg-slate-900">
-                <img src={avatarPhoto} className="about-photo" alt="null"></img>
+                <img src={mePhoto} alt="null" className="about-photo" />
               </div>
               <div className="top">
-                <img src={mePhoto} alt="null" className="about-photo" />
+                <img src={avatarPhoto} className="about-photo" alt="null"></img>
               </div>
             </div>
           </div>
