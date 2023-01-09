@@ -26,7 +26,7 @@ const About = () => {
           <p className="mt-3">
             I'm a self-taught full stack developer currently living in
             Indianapolis. I gravitated towards programming because of my love of
-            solving problems and the endless amount of things you can do. In my
+            solving problems and the endless amount of things to learn. In my
             free time, I love to read, play with my dog, and watch/play sports
             of any kind. I also like to spend time connecting with other
             programmers on The Odin Project Discord channel to hang out with
