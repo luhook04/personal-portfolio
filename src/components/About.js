@@ -1,5 +1,5 @@
 import mePhoto from '../assets/me.jpeg';
-import avatarPhoto from '../assets/avatar.jpeg';
+import sadiePhoto from '../assets/sadie1.jpeg';
 
 const About = () => {
   return (
@@ -17,10 +17,13 @@ const About = () => {
                 <img src={mePhoto} alt="null" className="about-photo" />
               </div>
               <div className="top">
-                <img src={avatarPhoto} className="about-photo" alt="null"></img>
+                <img src={sadiePhoto} className="about-photo" alt="null"></img>
               </div>
             </div>
           </div>
+          <p className="text-center text-xs mt-2">
+            (Hover for cute pic of my dog)
+          </p>
           <p className="mt-3">Hi, I'm Luke!</p>
 
           <p className="mt-3">
