@@ -179,7 +179,7 @@ nav img {
   flex-direction: column;
   margin: 50px auto;
   border: 2px solid #fcd34d;
-  padding: 30px;
+  /* padding: 30px; */
   border-radius: 4px;
   background-color: #3b4157;
 }

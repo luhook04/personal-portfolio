@@ -13,8 +13,8 @@ const Projects = () => {
         <h1>Projects</h1>
         <div></div>
       </div>
-      <div className="project-container mt-16">
-        <img src={waldoPic} alt="" />
+      <div className="project-container md:px-7 px-1.5 py-7">
+        <img src={waldoPic} alt="Waldo Project" />
         <div className="project-info">
           <h2 className="mb-0 md:mb-3">Where's Waldo?</h2>
           <p className="my-3 text-center text-sm sm:text-left sm:text-base">
@@ -45,8 +45,8 @@ const Projects = () => {
           </ul>
         </div>
       </div>
-      <div className="project-container">
-        <img src={blogPic} alt=""></img>
+      <div className="project-container md:px-7 px-1.5 py-7">
+        <img src={blogPic} alt="Blog Project"></img>
         <div className="project-info">
           <h2 className="mb-0 md:mb-3">Cap'n Hook's Blog</h2>
           <p className="my-3 text-center text-sm sm:text-left sm:text-base">
@@ -77,8 +77,8 @@ const Projects = () => {
           </ul>
         </div>
       </div>
-      <div className="project-container">
-        <img src={storePic} alt="" />
+      <div className="project-container md:px-7 px-1.5 py-7">
+        <img src={storePic} alt="Store Project" />
         <div className="project-info">
           <h2 className="mb-0 md:mb-3">Luke's Store</h2>
           <p className="my-3 text-center text-sm sm:text-left sm:text-base">
@@ -109,8 +109,8 @@ const Projects = () => {
           </ul>
         </div>
       </div>
-      <div className="project-container">
-        <img src={membersPic} alt="" />
+      <div className="project-container md:px-7 px-1.5 py-7">
+        <img src={membersPic} alt="Members Only Project" />
         <div className="project-info">
           <h2 className="mb-0 md:mb-3">Members Only</h2>
           <p className="my-3 text-center text-sm sm:text-left sm:text-base">
@@ -141,8 +141,8 @@ const Projects = () => {
           </ul>
         </div>
       </div>
-      <div className="project-container">
-        <img src={pokemonPic} alt="" />
+      <div className="project-container md:px-7 px-1.5 py-7">
+        <img src={pokemonPic} alt="Pokemon Memory Game Project" />
         <div className="project-info">
           <h2 className="mb-0 md:mb-3">Memory Game</h2>
           <p className="my-3 text-center text-sm sm:text-left sm:text-base">
@@ -172,8 +172,8 @@ const Projects = () => {
           </ul>
         </div>
       </div>
-      <div className="project-container">
-        <img src={cvPic} alt="" />
+      <div className="project-container md:px-7 px-1.5 py-7">
+        <img src={cvPic} alt="CV Project" />
         <div className="project-info">
           <h2 className="mb-0 md:mb-3">CV Creator</h2>
           <p className="my-3 text-center text-sm sm:text-left sm:text-base">
