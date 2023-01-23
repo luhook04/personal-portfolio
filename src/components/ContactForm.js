@@ -31,7 +31,11 @@ const ContactForm = () => {
 
   return (
     <div>
-      <form ref={form} className="contact-form" onSubmit={sendEmail}>
+      <form
+        ref={form}
+        className="contact-form w-11/12 md:w-5/6"
+        onSubmit={sendEmail}
+      >
         <input type="text" name="name" placeholder="Full name" required />
         <input type="email" name="email" placeholder="Your e-mail" required />
         <textarea name="message" placeholder="Message" required />
