@@ -404,6 +404,10 @@ a span {
     transform: rotateY(180deg);
   }
 
+  .hover-text {
+    display: block;
+  }
+
   .about-info:hover {
     scale: 1.05;
   }

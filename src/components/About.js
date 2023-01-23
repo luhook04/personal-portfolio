@@ -21,7 +21,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <p className="text-center text-xs mt-2">
+          <p className="hover-text text-center text-xs mt-2 hidden">
             (Hover for cute pic of my dog)
           </p>
           <p className="mt-3">Hi, I'm Luke!</p>
