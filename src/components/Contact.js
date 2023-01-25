@@ -10,7 +10,7 @@ const Contact = () => {
       </div>
       <div className="contact-content mt-7 w-5/6 md:w-2/3 ">
         <p className="mt-3 mb-4">
-          Feel free to contact me if you'd like to get in touch
+          Feel free to contact me if you'd like to get in touch!
         </p>
         <ContactForm />
         <div className="contact-links">
