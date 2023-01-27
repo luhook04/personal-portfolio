@@ -96,7 +96,7 @@ h1 {
 
 .glow-container span {
   animation: zoomup 2s linear;
-  animation-delay: calc(125ms * var(--i));
+  animation-delay: calc(150ms * var(--i));
 }
 
 .glow-container {
@@ -352,7 +352,8 @@ a span {
   }
 
   100% {
-    filter: blur(1px);
+    scale: 1.1;
+    filter: blur(2px);
   }
 }
 
