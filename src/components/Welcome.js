@@ -2,7 +2,7 @@ const Welcome = () => {
   return (
     <section className="text-center flex h-screen">
       <div className="text-slate-100 m-auto">
-        <div className="font-Welcome md:text-8xl text-7xl block glow-container">
+        <div className="font-Welcome italic font-black md:text-8xl text-7xl block glow-container">
           <span className="animate-slide inline-block" style={{ '--i': 1 }}>
             L
           </span>

@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Welcome: ['Racing Sans One', 'cursive'],
+        Welcome: ['Tahoma', 'sans-serif'],
         Change: ['Roboto', 'sans-serif'],
         About: ['Montserrat', 'sans-serif'],
       },
