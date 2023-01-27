@@ -344,45 +344,43 @@ a span {
   transition-property: transform;
   transition-duration: 0.5s;
 }
+
 @keyframes zoomup {
   50% {
-    color: #fcd34d;
-    filter: blur(1px);
     text-shadow: 0 0 10px #fcd34d, 0 0 20px #fcd34d, 0 0 30px #fcd34d,
       0 0 40px #fcd34d, 0 0 60px #fcd34d, 0 0 80px #fcd34d;
   }
 
   100% {
-    filter: blur(1px);
-    color: #fff;
-    text-shadow: none;
+    filter: blur(2px);
+    scale: 1.2;
   }
 }
 
 @keyframes dropword {
   0%,
   100% {
-    margin-top: -360px;
+    transform: translateY(-360px);
   }
 
   5%,
   25% {
-    margin-top: -270px;
+    transform: translateY(-270px);
   }
 
   30%,
   50% {
-    margin-top: -180px;
+    transform: translateY(-180px);
   }
 
   55%,
   75% {
-    margin-top: -90px;
+    transform: translateY(-90px);
   }
 
   80%,
   99.99% {
-    margin-top: 0px;
+    transform: translateY(0px);
   }
 }
 
