@@ -352,8 +352,7 @@ a span {
   }
 
   100% {
-    filter: blur(2px);
-    scale: 1.2;
+    filter: blur(1px);
   }
 }
 
