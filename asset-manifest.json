@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.1fdb9864.css",
-    "main.js": "/static/js/main.c67c0e9e.js",
+    "main.js": "/static/js/main.695242a3.js",
     "static/js/787.44c92f1d.chunk.js": "/static/js/787.44c92f1d.chunk.js",
     "static/media/cv2.jpg": "/static/media/cv2.2d0ef41c04ac5edcfd40.jpg",
     "static/media/sadie1.jpeg": "/static/media/sadie1.102ad875b2b6af1690ed.jpeg",
     "static/media/blog2.jpg": "/static/media/blog2.b506b3bb7cedd11678c7.jpg",
-    "static/media/pokemon.jpg": "/static/media/pokemon.115ebcf11d487d3881e3.jpg",
     "static/media/store.jpg": "/static/media/store.581bd24e3d31540661ed.jpg",
+    "static/media/pokemon.jpg": "/static/media/pokemon.59bac4bf05cff3139ebd.jpg",
     "static/media/members-only.jpg": "/static/media/members-only.504d84d4c55987dd6d4e.jpg",
     "static/media/waldo.jpg": "/static/media/waldo.68bc2e0c4f5717b519bd.jpg",
     "static/media/me.jpeg": "/static/media/me.88ea5642bbd33a924564.jpeg",
     "static/media/logo1.png": "/static/media/logo1.781a94f3f6aa2cd63584.png",
     "index.html": "/index.html",
     "main.1fdb9864.css.map": "/static/css/main.1fdb9864.css.map",
-    "main.c67c0e9e.js.map": "/static/js/main.c67c0e9e.js.map",
+    "main.695242a3.js.map": "/static/js/main.695242a3.js.map",
     "787.44c92f1d.chunk.js.map": "/static/js/787.44c92f1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1fdb9864.css",
-    "static/js/main.c67c0e9e.js"
+    "static/js/main.695242a3.js"
   ]
 }
