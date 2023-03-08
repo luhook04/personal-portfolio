@@ -384,7 +384,6 @@ a span {
 @keyframes zoomup {
   100% {
     scale: 1.2;
-    filter: blur(2px);
   }
 }
 
