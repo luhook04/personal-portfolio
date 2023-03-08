@@ -10,15 +10,15 @@ module.exports = {
         About: ['Montserrat', 'sans-serif'],
       },
       animation: {
-        slide: 'slide 1.7s ease-out',
-        slide2: 'slide 1.9s ease-out',
-        slide3: 'slide 2.1s ease-out',
-        slide4: 'slide 2.3s ease-out',
+        // slide: 'slide 1.7s ease-out',
+        // slide2: 'slide 1.9s ease-out',
+        // slide3: 'slide 2.1s ease-out',
+        // slide4: 'slide 2.3s ease-out',
       },
       keyframes: {
         slide: {
-          '0%': { transform: 'translateY(-1000%)' },
-          '100%': { transform: 'translateY(0)' },
+          // '0%': { transform: 'translateY(-1000%)' },
+          // '100%': { transform: 'translateY(0)' },
         },
       },
     },
