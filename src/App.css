@@ -99,43 +99,7 @@ h1 {
   animation-delay: calc(150ms * var(--i));
 }
 
-.glow-container span::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  text-shadow: 0 0 10px #fcd34d, 0 0 20px #fcd34d, 0 0 30px #fcd34d,
-    0 0 40px #fcd34d, 0 0 60px #fcd34d, 0 0 80px #fcd34d;
-  animation: glow 2s linear;
-  animation-delay: calc(150ms * var(--i));
-}
-
-.letter-l::after {
-  content: 'L';
-}
-.letter-u::after {
-  content: 'U';
-}
-.letter-k::after {
-  content: 'K';
-}
-.letter-e::after {
-  content: 'E';
-}
-.letter-h::after {
-  content: 'H';
-}
-.letter-o::after {
-  content: 'O';
-}
-.letter-k::after {
-  content: 'K';
-}
-
 .glow-container {
-  position: relative;
   text-shadow: 0 0 10px #fcd34d;
 }
 
@@ -382,26 +346,14 @@ a span {
 }
 
 @keyframes zoomup {
+  50% {
+    text-shadow: 0 0 10px #fcd34d, 0 0 20px #fcd34d, 0 0 30px #fcd34d,
+      0 0 40px #fcd34d, 0 0 60px #fcd34d, 0 0 80px #fcd34d;
+  }
+
   100% {
     scale: 1.2;
-  }
-}
-
-@keyframes glow {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0.5;
-  }
-  50% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 0;
+    filter: blur(2px);
   }
 }
 

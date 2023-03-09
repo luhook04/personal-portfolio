@@ -3,50 +3,38 @@ const Welcome = () => {
     <section className="text-center flex h-screen">
       <div className="text-slate-100 m-auto">
         <div className="font-Welcome md:text-8xl text-7xl block glow-container">
-          <span
-            className="animate-slide inline-block letter-l"
-            style={{ '--i': 1 }}
-          >
+          <span className="animate-slide inline-block" style={{ '--i': 1 }}>
             L
           </span>
-          <span
-            className="animate-slide2 inline-block letter-u"
-            style={{ '--i': 2 }}
-          >
+          <span className="animate-slide2 inline-block" style={{ '--i': 2 }}>
             U
           </span>
-          <span
-            className="animate-slide3 inline-block letter-k"
-            style={{ '--i': 3 }}
-          >
+          <span className="animate-slide3 inline-block" style={{ '--i': 3 }}>
             K
           </span>
-          <span
-            className="animate-slide4 inline-block letter-e"
-            style={{ '--i': 4 }}
-          >
+          <span className="animate-slide4 inline-block" style={{ '--i': 4 }}>
             E
           </span>
           <span
-            className="animate-slide4 inline-block text-amber-300 letter-h"
+            className="animate-slide4 inline-block text-amber-300"
             style={{ '--i': 5 }}
           >
             H
           </span>
           <span
-            className="animate-slide3 inline-block text-amber-300 letter-o"
+            className="animate-slide3 inline-block text-amber-300"
             style={{ '--i': 6 }}
           >
             O
           </span>
           <span
-            className="animate-slide2 inline-block text-amber-300 letter-o"
+            className="animate-slide2 inline-block text-amber-300"
             style={{ '--i': 7 }}
           >
             O
           </span>
           <span
-            className="animate-slide inline-block text-amber-300 letter-k"
+            className="animate-slide inline-block text-amber-300"
             style={{ '--i': 8 }}
           >
             K
