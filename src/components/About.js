@@ -6,7 +6,7 @@ const About = () => {
     <section id="about" className="about-content font-About text-amber-400">
       <div className="flex-header">
         <div></div>
-        <h1>About Me</h1>
+        <h2>About Me</h2>
         <div></div>
       </div>
       <div className="about-container mt-20 mb-20 ">

@@ -5,7 +5,7 @@ const Contact = () => {
     <section id="contact" className="contact">
       <div className="flex-header">
         <div></div>
-        <h1>Contact</h1>
+        <h2>Contact</h2>
         <div></div>
       </div>
       <div className="contact-content mt-7 w-5/6 md:w-2/3 ">

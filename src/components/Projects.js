@@ -10,13 +10,13 @@ const Projects = () => {
     <section id="projects">
       <div className="flex-header">
         <div></div>
-        <h1>Projects</h1>
+        <h2>Projects</h2>
         <div></div>
       </div>
       <div className="project-container md:px-7 px-1.5 py-7">
         <img src={pollsterPic} alt="Social Media Project" />
         <div className="project-info">
-          <h2 className="mb-0 md:mb-2">Pollster</h2>
+          <h3 className="mb-0 md:mb-2">Pollster</h3>
           <p className="my-2 text-center text-sm sm:text-left sm:text-base">
             Pollster is a full-stack social media web application that allows
             users to vote on polls posted by their friends. Users can create
@@ -48,7 +48,7 @@ const Projects = () => {
       <div className="project-container md:px-7 px-1.5 py-7">
         <img src={waldoPic} alt="Waldo Project" />
         <div className="project-info">
-          <h2 className="mb-0 md:mb-2">Where's Waldo?</h2>
+          <h3 className="mb-0 md:mb-2">Where's Waldo?</h3>
           <p className="my-2 text-center text-sm sm:text-left sm:text-base">
             Developed with React for the front end and Firebase for the backend,
             Where's Waldo? is a game that keeps track of how long it takes for
@@ -80,7 +80,7 @@ const Projects = () => {
       <div className="project-container md:px-7 px-1.5 py-7">
         <img src={blogPic} alt="Blog Project"></img>
         <div className="project-info">
-          <h2 className="mb-0 md:mb-2">Cap'n Hook's Blog</h2>
+          <h3 className="mb-0 md:mb-2">Cap'n Hook's Blog</h3>
           <p className="my-2 text-center text-sm sm:text-left sm:text-base">
             Cap'n Hook's Blog is a MERN stack blogging website. The client-side
             website allows users to read blog posts and add comments, while the
@@ -112,7 +112,7 @@ const Projects = () => {
       <div className="project-container md:px-7 px-1.5 py-7">
         <img src={storePic} alt="Store Project" />
         <div className="project-info">
-          <h2 className="mb-0 md:mb-2">Luke's Store</h2>
+          <h3 className="mb-0 md:mb-2">Luke's Store</h3>
           <p className="my-2 text-center text-sm sm:text-left sm:text-base">
             Luke's Store is a fake online store that fetches its products from
             Fake Store API. The user can add and remove items from their cart,
@@ -143,7 +143,7 @@ const Projects = () => {
       <div className="project-container md:px-7 px-1.5 py-7">
         <img src={membersPic} alt="Members Only Project" />
         <div className="project-info">
-          <h2 className="mb-0 md:mb-2">Members Only</h2>
+          <h3 className="mb-0 md:mb-2">Members Only</h3>
           <p className="my-2 text-center text-sm sm:text-left sm:text-base">
             Members Only is a forum app built with modern authentication and
             security tactics. It is a message board that hides specific message
@@ -174,7 +174,7 @@ const Projects = () => {
       <div className="project-container md:px-7 px-1.5 py-7">
         <img src={pokemonPic} alt="Pokemon Memory Game Project" />
         <div className="project-info">
-          <h2 className="mb-0 md:mb-2">Memory Game</h2>
+          <h3 className="mb-0 md:mb-2">Memory Game</h3>
           <p className="my-2 text-center text-sm sm:text-left sm:text-base">
             This app displays random pokémon fetched from the PokéAPI. The goal
             is to click on all twelve pokémon without repeating picks. Can you

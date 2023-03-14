@@ -41,7 +41,7 @@ const Welcome = () => {
               K
             </span>
           </div>
-          <div className="glow-text-animation bright-text">
+          <h1 className="block glow-text-animation bright-text text-7xl md:text-8xl font-Welcome">
             <span className="animate-slide inline-block" style={{ '--i': 1 }}>
               L
             </span>
@@ -78,7 +78,7 @@ const Welcome = () => {
             >
               K
             </span>
-          </div>
+          </h1>
         </div>
       </div>
       <div className="wrapper text-amber-200">
