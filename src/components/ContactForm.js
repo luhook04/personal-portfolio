@@ -36,11 +36,11 @@ const ContactForm = () => {
         className="contact-form w-11/12 md:w-5/6"
         onSubmit={sendEmail}
       >
-        <label for="name" className="visually-hidden">
+        <label htmlFor="name" className="visually-hidden">
           Name
         </label>
         <input type="text" id="name" name="name" placeholder="Name" required />
-        <label for="email" className="visually-hidden">
+        <label htmlFor="email" className="visually-hidden">
           Email
         </label>
         <input
@@ -50,7 +50,7 @@ const ContactForm = () => {
           placeholder="E-mail"
           required
         />
-        <label for="message" className="visually-hidden">
+        <label htmlFor="message" className="visually-hidden">
           Message
         </label>
         <textarea name="message" id="message" placeholder="Message" required />
