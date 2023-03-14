@@ -36,7 +36,7 @@ nav {
   background-color: #fcd34d;
 }
 
-h1 {
+h2 {
   color: #fcd34d;
   text-align: center;
   font-size: 1.6rem;
@@ -210,7 +210,7 @@ nav img {
   border-radius: 4px;
   background-color: #3b4157;
 }
-h2 {
+h3 {
   font-size: 1.5rem;
   margin: auto;
   margin-bottom: 1rem;
@@ -469,7 +469,7 @@ a span {
     color: white;
   }
 
-  h2 {
+  h3 {
     font-size: 2rem;
   }
 }
@@ -496,7 +496,7 @@ a span {
     margin-bottom: 10px;
   }
 
-  h2 {
+  h3 {
     margin-top: -1rem;
   }
   .project-links {
