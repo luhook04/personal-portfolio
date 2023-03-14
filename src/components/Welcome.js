@@ -81,7 +81,7 @@ const Welcome = () => {
           </div>
         </div>
       </div>
-      <div className="wrapper">
+      <div className="wrapper text-amber-200">
         <ul className="words font-Change">
           <li className="word">Software Engineer</li>
           <li className="word">Technology Junkie</li>

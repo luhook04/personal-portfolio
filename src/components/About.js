@@ -14,10 +14,10 @@ const About = () => {
           <div className="flip-box">
             <div className="outer">
               <div className="below bg-slate-900">
-                <img src={mePhoto} alt="null" className="about-photo" />
+                <img src={mePhoto} alt="" className="about-photo" />
               </div>
               <div className="top">
-                <img src={sadiePhoto} className="about-photo" alt="null"></img>
+                <img src={sadiePhoto} className="about-photo" alt=""></img>
               </div>
             </div>
           </div>

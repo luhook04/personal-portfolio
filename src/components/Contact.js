@@ -14,7 +14,7 @@ const Contact = () => {
         </p>
         <ContactForm />
         <div className="contact-links">
-          <a href="https://github.com/luhook04" aria-label="LinkedIn">
+          <a href="https://github.com/luhook04" aria-label="Github">
             <i className="devicon-github-original"></i>
           </a>
           <a
