@@ -36,7 +36,7 @@ const About = () => {
             people who share my passion.
           </p>
         </div>
-        <div className="skills text-xs md:w-1/2 w-full">
+        <div className="skills text-xs sm:w-1/2 w-full">
           <div className="tech-icon">
             <i className="devicon-html5-plain colored"></i>
             <span>HTML</span>
