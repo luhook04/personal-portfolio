@@ -36,9 +36,24 @@ const ContactForm = () => {
         className="contact-form w-11/12 md:w-5/6"
         onSubmit={sendEmail}
       >
-        <input type="text" name="name" placeholder="Full name" required />
-        <input type="email" name="email" placeholder="Your e-mail" required />
-        <textarea name="message" placeholder="Message" required />
+        <label for="name"></label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Full name"
+          required
+        />
+        <label for="email"></label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your e-mail"
+          required
+        />
+        <label for="message"></label>
+        <textarea name="message" id="message" placeholder="Message" required />
         <button type="submit" name="submit">
           Send Message
         </button>
