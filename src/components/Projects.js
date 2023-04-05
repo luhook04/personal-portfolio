@@ -1,3 +1,4 @@
+import { useInView } from 'react-intersection-observer';
 import pollsterPic from '../assets/Pollster.jpg';
 import membersPic from '../assets/members-only.jpg';
 import blogPic from '../assets/blog2.jpg';
@@ -6,6 +7,40 @@ import storePic from '../assets/store.jpg';
 import waldoPic from '../assets/waldo.jpg';
 
 const Projects = () => {
+  // const ref = useRef();
+  const [inViewRef1, inView1] = useInView({
+    triggerOnce: true,
+    threshold: 0.3,
+  });
+  const [inViewRef2, inView2] = useInView({
+    triggerOnce: true,
+    threshold: 0.3,
+  });
+  const [inViewRef3, inView3] = useInView({
+    triggerOnce: true,
+    threshold: 0.3,
+  });
+  const [inViewRef4, inView4] = useInView({
+    triggerOnce: true,
+    threshold: 0.3,
+  });
+  const [inViewRef5, inView5] = useInView({
+    triggerOnce: true,
+    threshold: 0.3,
+  });
+  const [inViewRef6, inView6] = useInView({
+    triggerOnce: true,
+    threshold: 0.3,
+  });
+
+  // const setRefs = useCallback(
+  //   (node) => {
+  //     ref.current = node;
+  //     inViewRef(node);
+  //   },
+  //   [inViewRef]
+  // );
+
   return (
     <section id="projects">
       <div className="flex-header">
@@ -13,7 +48,12 @@ const Projects = () => {
         <h2>Projects</h2>
         <div></div>
       </div>
-      <div className="project-container md:px-7 px-1.5 py-7">
+      <div
+        ref={inViewRef1}
+        className={`project-container right ${
+          inView1 ? 'show ' : ''
+        }md:px-7 px-1.5 py-7`}
+      >
         <img src={pollsterPic} alt="Social Media Project" />
         <div className="project-info">
           <h3 className="mb-0 md:mb-2">Pollster</h3>
@@ -45,7 +85,12 @@ const Projects = () => {
           </ul>
         </div>
       </div>
-      <div className="project-container md:px-7 px-1.5 py-7">
+      <div
+        ref={inViewRef2}
+        className={`project-container left ${
+          inView2 ? 'show ' : ''
+        }md:px-7 px-1.5 py-7`}
+      >
         <img src={waldoPic} alt="Waldo Project" />
         <div className="project-info">
           <h3 className="mb-0 md:mb-2">Where's Waldo?</h3>
@@ -77,7 +122,12 @@ const Projects = () => {
           </ul>
         </div>
       </div>
-      <div className="project-container md:px-7 px-1.5 py-7">
+      <div
+        ref={inViewRef3}
+        className={`project-container right ${
+          inView3 ? 'show ' : ''
+        }md:px-7 px-1.5 py-7`}
+      >
         <img src={blogPic} alt="Blog Project"></img>
         <div className="project-info">
           <h3 className="mb-0 md:mb-2">Cap'n Hook's Blog</h3>
@@ -109,7 +159,12 @@ const Projects = () => {
           </ul>
         </div>
       </div>
-      <div className="project-container md:px-7 px-1.5 py-7">
+      <div
+        ref={inViewRef4}
+        className={`project-container left ${
+          inView4 ? 'show ' : ''
+        }md:px-7 px-1.5 py-7`}
+      >
         <img src={storePic} alt="Store Project" />
         <div className="project-info">
           <h3 className="mb-0 md:mb-2">Luke's Store</h3>
@@ -140,7 +195,12 @@ const Projects = () => {
           </ul>
         </div>
       </div>
-      <div className="project-container md:px-7 px-1.5 py-7">
+      <div
+        ref={inViewRef5}
+        className={`project-container right ${
+          inView5 ? 'show ' : ''
+        }md:px-7 px-1.5 py-7`}
+      >
         <img src={membersPic} alt="Members Only Project" />
         <div className="project-info">
           <h3 className="mb-0 md:mb-2">Members Only</h3>
@@ -171,7 +231,12 @@ const Projects = () => {
           </ul>
         </div>
       </div>
-      <div className="project-container md:px-7 px-1.5 py-7">
+      <div
+        ref={inViewRef6}
+        className={`project-container left ${
+          inView6 ? 'show ' : ''
+        }md:px-7 px-1.5 py-7`}
+      >
         <img src={pokemonPic} alt="Pokemon Memory Game Project" />
         <div className="project-info">
           <h3 className="mb-0 md:mb-2">Memory Game</h3>
