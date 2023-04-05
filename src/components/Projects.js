@@ -7,7 +7,6 @@ import storePic from '../assets/store.jpg';
 import waldoPic from '../assets/waldo.jpg';
 
 const Projects = () => {
-  // const ref = useRef();
   const [inViewRef1, inView1] = useInView({
     triggerOnce: true,
     threshold: 0.3,
@@ -32,14 +31,6 @@ const Projects = () => {
     triggerOnce: true,
     threshold: 0.3,
   });
-
-  // const setRefs = useCallback(
-  //   (node) => {
-  //     ref.current = node;
-  //     inViewRef(node);
-  //   },
-  //   [inViewRef]
-  // );
 
   return (
     <section id="projects">
