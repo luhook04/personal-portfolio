@@ -94,7 +94,7 @@ const About = () => {
             <span>TAILWIND</span>
           </div>
           <div className="tech-icon">
-            <i class="devicon-mysql-plain"></i>
+            <i className="devicon-mysql-plain"></i>
             <span>MYSQL</span>
           </div>
         </div>
