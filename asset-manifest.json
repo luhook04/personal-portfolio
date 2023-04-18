@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cccaaf60.css",
-    "main.js": "/static/js/main.28b73637.js",
+    "main.js": "/static/js/main.1337748a.js",
     "static/js/787.44c92f1d.chunk.js": "/static/js/787.44c92f1d.chunk.js",
     "static/media/sadie1.jpeg": "/static/media/sadie1.102ad875b2b6af1690ed.jpeg",
     "static/media/Pollster.jpg": "/static/media/Pollster.f276fe8e1bd773039bd3.jpg",
@@ -14,11 +14,11 @@
     "static/media/LH.png": "/static/media/LH.6052248186a976ebb17e.png",
     "index.html": "/index.html",
     "main.cccaaf60.css.map": "/static/css/main.cccaaf60.css.map",
-    "main.28b73637.js.map": "/static/js/main.28b73637.js.map",
+    "main.1337748a.js.map": "/static/js/main.1337748a.js.map",
     "787.44c92f1d.chunk.js.map": "/static/js/787.44c92f1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cccaaf60.css",
-    "static/js/main.28b73637.js"
+    "static/js/main.1337748a.js"
   ]
 }
