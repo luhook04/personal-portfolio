@@ -1,7 +1,7 @@
 import { useInView } from 'react-intersection-observer';
 import pollsterPic from '../assets/Pollster.jpg';
 import membersPic from '../assets/members-only.jpg';
-import blogPic from '../assets/blog2.jpg';
+import blogPic from '../assets/blogpic.jpg';
 import pokemonPic from '../assets/pokemon.jpg';
 import storePic from '../assets/store.jpg';
 import waldoPic from '../assets/waldo.jpg';
