@@ -62,7 +62,7 @@ const About = () => {
             <span>NODEJS</span>
           </div>
           <div className="tech-icon">
-            <i class="devicon-express-original"></i>
+            <i className="devicon-express-original"></i>
             <span>EXPRESS</span>
           </div>
           <div className="tech-icon">
