@@ -155,14 +155,13 @@ h2 {
 
 .word {
   text-align: center;
-
   letter-spacing: 5px;
   text-transform: uppercase;
   padding: 0 10px;
   height: 45px;
   margin-bottom: 45px;
   display: block;
-  text-shadow: 3px 3px 3px #fff;
+  text-shadow: 1px 1px 4px #fff;
 }
 
 nav img {
