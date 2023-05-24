@@ -1,6 +1,6 @@
 const Welcome = () => {
   return (
-    <section className="text-center h-screen pt-52">
+    <section className="text-center h-screen pt-36">
       <div className="text-slate-100 m-auto">
         <div className="font-Welcome md:text-8xl text-7xl glow-container w-full">
           <div className="glow-text-animation">
