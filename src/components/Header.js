@@ -1,4 +1,4 @@
-import logo from '../assets/LH9.png';
+import logo from '../assets/LH12.png';
 
 const Header = () => {
   return (
@@ -10,7 +10,7 @@ const Header = () => {
               src={logo}
               title="Back to top"
               alt="Back to top"
-              className="h-20 w-20"
+              className="h-36 w-36"
             />
           </a>
           <ul className="flex md:text-lg items-center gap-x-3 md:gap-x-10 nav-links">

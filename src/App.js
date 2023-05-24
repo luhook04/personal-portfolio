@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 
 const App = () => {
   return (
-    <div className="bg-slate-900">
+    <div>
       <Header />
       <main>
         <Welcome />

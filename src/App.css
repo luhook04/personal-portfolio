@@ -1,5 +1,12 @@
 html {
-  background-color: rgb(15 23 42);
+  background: rgb(15, 23, 42);
+  background: radial-gradient(
+    circle,
+    rgba(15, 23, 42, 1) 33%,
+    rgba(15, 23, 42, 0.9696472338935574) 100%
+  );
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='29' height='50.115' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(219, 53%, 11%, 1)'/><path d='M14.498 16.858L0 8.488.002-8.257l14.5-8.374L29-8.26l-.002 16.745zm0 50.06L0 58.548l.002-16.745 14.5-8.373L29 41.8l-.002 16.744zM28.996 41.8l-14.498-8.37.002-16.744L29 8.312l14.498 8.37-.002 16.745zm-29 0l-14.498-8.37.002-16.744L0 8.312l14.498 8.37-.002 16.745z'  stroke-width='1' stroke='hsla(0, 0%, 0%, 0.12)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+  background-attachment: fixed;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -25,6 +32,10 @@ nav {
   animation-fill-mode: forwards;
   top: 0;
   opacity: 0;
+}
+
+nav img:hover {
+  transform: rotate(720deg);
 }
 
 .flex-header {
@@ -61,7 +72,7 @@ h2 {
   margin-right: auto;
   margin-bottom: 60px;
   width: 85%;
-  border: 2px solid #fcd34d;
+  /* border: 2px solid #fcd34d; */
   color: white;
   padding: 15px;
   transition: scale 0.8s;
@@ -157,7 +168,7 @@ h2 {
 nav img {
   height: 80px;
   transition-property: transform;
-  transition-duration: 0.5s;
+  transition-duration: 0.7s;
 }
 
 .flip-box {
@@ -176,6 +187,7 @@ nav img {
   grid-column: 1 / 1;
   grid-row: 1 / 1;
 }
+
 .outer .below {
   backface-visibility: hidden;
   z-index: 2;
@@ -214,9 +226,9 @@ nav img {
   display: flex;
   flex-direction: column;
   margin: 50px auto;
-  border: 2px solid #fcd34d;
+  background-color: rgb(30 41 59);
   border-radius: 4px;
-  background-color: #3b4157;
+  box-shadow: 1px 7px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .left {
@@ -224,6 +236,7 @@ nav img {
   opacity: 0;
   transition: 1000ms;
 }
+
 .right {
   transform: translateX(200px);
   opacity: 0;
@@ -246,17 +259,20 @@ h3 {
   border-radius: 5px;
   color: white;
   display: flex;
+
   flex-direction: column;
   padding: 15px;
   font-weight: bolder;
   text-align: center;
 }
+
 .project-links li a {
   box-shadow: 1px 7px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 4px;
   padding: 6px;
   font-weight: 400;
 }
+
 .project-links {
   font-weight: bold;
   font-size: 14px;
@@ -270,7 +286,7 @@ h3 {
 }
 
 .project-links li {
-  background-color: rgb(15 23 42);
+  background-color: rgb(51 65 85);
   color: white;
   border-radius: 4px;
   transition-property: background-color, color, transform;
@@ -286,7 +302,6 @@ h3 {
   color: rgb(15 23 42);
   font-weight: bold;
   background-color: #fcd34d;
-
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
@@ -346,6 +361,7 @@ h3 {
   opacity: 0.6;
   font-weight: bold;
 }
+
 .contact-form textarea::placeholder {
   color: black;
   opacity: 0.6;
@@ -391,6 +407,7 @@ h3 {
 .project-links li a {
   display: inline-block;
 }
+
 a span {
   font-size: 15px;
   display: inline-block;
@@ -471,6 +488,7 @@ a span {
   .about-info:hover {
     scale: 1.05;
   }
+
   .nav-links a:hover {
     box-shadow: inset 100px 0 0 0 #3b4157;
     color: white;
@@ -487,7 +505,7 @@ a span {
   }
 
   nav img:hover {
-    transform: scale(1.3);
+    transform: rotate(360);
   }
 
   .contact-links i:hover {
@@ -524,9 +542,11 @@ a span {
   h3 {
     margin-top: -1rem;
   }
+
   .project-links {
     font-size: 18px;
   }
+
   .project-container {
     display: flex;
     flex-direction: row;

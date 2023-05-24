@@ -9,11 +9,11 @@ const About = () => {
         <h2>About Me</h2>
         <div></div>
       </div>
-      <div className="about-container mt-20 mb-20 ">
-        <div className="about-info text-center text-s sm:text-lg sm:text-left  ">
+      <div className="about-container mt-20 mb-20">
+        <div className="about-info text-center text-s sm:text-lg sm:text-left bg-slate-800  ">
           <div className="flip-box">
             <div className="outer">
-              <div className="below bg-slate-900">
+              <div className="below bg-slate-800">
                 <img src={mePhoto} alt="" className="about-photo" />
               </div>
               <div className="top">
