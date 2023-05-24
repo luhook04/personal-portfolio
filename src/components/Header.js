@@ -2,9 +2,9 @@ import logo from '../assets/LH9.png';
 
 const Header = () => {
   return (
-    <header className="bg-white">
+    <header>
       <nav>
-        <div className="w-10/12 mx-auto flex justify-between">
+        <div className="w-10/12 mx-auto flex justify-between text-slate-400">
           <a href="#top">
             <img
               src={logo}
