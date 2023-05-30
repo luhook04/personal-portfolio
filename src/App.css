@@ -15,14 +15,34 @@ body {
   overflow-x: hidden;
 }
 
+.about-content {
+  color: #fcd34d;
+}
+
 .nav-links li a {
-  box-shadow: inset 0 0 0 0 #3b4157;
   font-weight: 600;
-  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+
   margin: 0 -0.25rem;
-  padding: 0.35rem 0.65rem;
-  transition: color 0.4s ease-in-out, box-shadow 0.3s ease-in-out;
-  text-decoration: none;
+}
+
+.nav-links li a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-links li a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 nav {
@@ -489,7 +509,7 @@ a span {
   }
 
   .nav-links a:hover {
-    box-shadow: inset 100px 0 0 0 #3b4157;
+    /* box-shadow: inset 100px 0 0 0 #3b4157; */
     color: white;
   }
 
