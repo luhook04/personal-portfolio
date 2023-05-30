@@ -262,9 +262,7 @@ nav img {
 
 h3 {
   font-size: 1.5rem;
-  margin: auto;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  text-align: center;
 }
 
 .project-info {
@@ -275,6 +273,10 @@ h3 {
   padding: 15px;
   font-weight: bolder;
   text-align: center;
+}
+
+.project-info p {
+  color: #fcd34de3;
 }
 
 .project-links li a {
@@ -302,6 +304,7 @@ h3 {
   border: 1px rgb(15 23 42) solid;
   transition-property: background-color, color, transform;
   transition-duration: 0.7s;
+  flex-grow: 1;
 }
 
 .project-links a {
@@ -505,14 +508,14 @@ a span {
     color: white;
   }
 
-  .project-links li a:hover > span {
+  .project-links li:hover > a span {
     transform: rotate(45deg);
   }
 
   .project-links li:hover {
     background-color: #fcd34d;
-    color: #3b4157;
-    transform: scale(1.1);
+    color: rgb(15 23 42);
+    transform: scale(1.05);
   }
 
   nav img:hover {
@@ -550,10 +553,6 @@ a span {
     margin-bottom: 10px;
   }
 
-  h3 {
-    margin-top: -1rem;
-  }
-
   .project-links {
     font-size: 18px;
   }
@@ -561,7 +560,6 @@ a span {
   .project-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
     column-gap: 20px;
     margin-right: auto;
@@ -582,5 +580,10 @@ a span {
 
   .project-container:nth-child(odd) {
     flex-direction: row-reverse;
+  }
+
+  h3 {
+    margin-top: -1rem;
+    text-align: left;
   }
 }
