@@ -402,6 +402,9 @@ i {
   font-weight: bold;
 }
 
+.contact-form textarea {
+  padding: 0px 3px;
+}
 .contact-form:focus {
   display: none;
 }
