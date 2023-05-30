@@ -3,7 +3,7 @@ import sadiePhoto from '../assets/sadie1.jpeg';
 
 const About = () => {
   return (
-    <section id="about" className="about-content font-About ">
+    <section id="about" className="about-content">
       <div className="flex-header">
         <div></div>
         <h2>About Me</h2>

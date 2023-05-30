@@ -43,17 +43,26 @@ const Projects = () => {
         ref={inViewRef1}
         className={`project-container right ${
           inView1 ? 'show ' : ''
-        }md:px-7 px-1.5 py-7`}
+        } px-4 py-4 sm:px-7 sm:py-7`}
       >
         <img src={pollsterPic} alt="Social Media Project" />
         <div className="project-info">
-          <h3 className="mb-0 md:mb-2">Pollster</h3>
-          <p className="my-2 text-center text-sm sm:text-left sm:text-base">
+          <h3>Pollster</h3>
+          <p className="text-center text-sm sm:text-left sm:text-base">
             Pollster is a full-stack social media web application that allows
             users to vote on polls posted by their friends. Users can create
             polls with different types of questions and options. Once the poll
             is created, the user can share it by posting it for everyone to see.
           </p>
+          <div className="project-icons">
+            <i className="devicon-typescript-plain colored"></i>
+            <i className="devicon-react-original colored"></i>
+            <i className="devicon-nodejs-plain colored"></i>
+            <i className="devicon-express-original"></i>
+            <i className="devicon-tailwindcss-plain colored"></i>
+            <i className="devicon-mongodb-plain colored"></i>
+          </div>
+
           <ul className="project-links">
             <li>
               <a
@@ -80,17 +89,23 @@ const Projects = () => {
         ref={inViewRef2}
         className={`project-container left ${
           inView2 ? 'show ' : ''
-        }md:px-7 px-1.5 py-7`}
+        }px-4 py-4 sm:px-7 sm:py-7`}
       >
         <img src={waldoPic} alt="Waldo Project" />
         <div className="project-info">
-          <h3 className="mb-0 md:mb-2">Where's Waldo?</h3>
-          <p className="my-2 text-center text-sm sm:text-left sm:text-base">
+          <h3>Where's Waldo?</h3>
+          <p className="text-center text-sm sm:text-left sm:text-base">
             Developed with React for the front end and Firebase for the backend,
             Where's Waldo? is a game that keeps track of how long it takes for
             the user to find all four characters in the picture. Finish quickly
             to get your name up on the leaderboards!
           </p>
+          <div className="project-icons">
+            <i className="devicon-javascript-plain colored"></i>
+            <i className="devicon-react-original colored"></i>
+            <i className="devicon-firebase-plain colored"></i>
+            <i className="devicon-css3-plain colored"></i>
+          </div>
           <ul className="project-links">
             <li>
               <a
@@ -117,17 +132,25 @@ const Projects = () => {
         ref={inViewRef3}
         className={`project-container right ${
           inView3 ? 'show ' : ''
-        }md:px-7 px-1.5 py-7`}
+        }px-4 py-4 sm:px-7 sm:py-7`}
       >
         <img src={blogPic} alt="Blog Project"></img>
         <div className="project-info">
-          <h3 className="mb-0 md:mb-2">Cap'n Hook's Blog</h3>
-          <p className="my-2 text-center text-sm sm:text-left sm:text-base">
+          <h3>Cap'n Hook's Blog</h3>
+          <p className="text-center text-sm sm:text-left sm:text-base">
             Cap'n Hook's Blog is a MERN stack blogging website. The client-side
             website allows users to read blog posts and add comments, while the
             CMS website permits the admin to perform CRUD operations on the blog
             posts and comments.
           </p>
+          <div className="project-icons">
+            <i className="devicon-javascript-plain colored"></i>
+            <i className="devicon-react-original colored"></i>
+            <i className="devicon-nodejs-plain colored"></i>
+            <i className="devicon-express-original"></i>
+            <i className="devicon-mongodb-plain colored"></i>
+            <i className="devicon-tailwindcss-plain colored"></i>
+          </div>
           <ul className="project-links">
             <li>
               <a
@@ -154,16 +177,21 @@ const Projects = () => {
         ref={inViewRef4}
         className={`project-container left ${
           inView4 ? 'show ' : ''
-        }md:px-7 px-1.5 py-7`}
+        }px-4 py-4 sm:px-7 sm:py-7`}
       >
         <img src={storePic} alt="Store Project" />
         <div className="project-info">
-          <h3 className="mb-0 md:mb-2">Luke's Store</h3>
-          <p className="my-2 text-center text-sm sm:text-left sm:text-base">
+          <h3>Luke's Store</h3>
+          <p className="text-center text-sm sm:text-left sm:text-base">
             Luke's Store is a fake online store that fetches its products from
             Fake Store API. The user can add and remove items from their cart,
             and this app will keep track of their total cost and items selected.
           </p>
+          <div className="project-icons">
+            <i className="devicon-javascript-plain colored"></i>
+            <i className="devicon-react-original colored"></i>
+            <i className="devicon-css3-plain colored"></i>
+          </div>
           <ul className="project-links">
             <li>
               <a
@@ -190,16 +218,23 @@ const Projects = () => {
         ref={inViewRef5}
         className={`project-container right ${
           inView5 ? 'show ' : ''
-        }md:px-7 px-1.5 py-7`}
+        }px-4 py-4 sm:px-7 sm:py-7`}
       >
         <img src={membersPic} alt="Members Only Project" />
         <div className="project-info">
-          <h3 className="mb-0 md:mb-2">Members Only</h3>
-          <p className="my-2 text-center text-sm sm:text-left sm:text-base">
+          <h3>Members Only</h3>
+          <p className="text-center text-sm sm:text-left sm:text-base">
             Members Only is a forum app built with modern authentication and
             security tactics. It is a message board that hides specific message
             information depending on the user's authentication level.
           </p>
+          <div className="project-icons">
+            <i className="devicon-javascript-plain colored"></i>
+            <i className="devicon-nodejs-plain colored"></i>
+            <i className="devicon-express-original"></i>
+            <i className="devicon-heroku-plain colored"></i>
+            <i className="devicon-mongodb-plain colored"></i>
+          </div>
           <ul className="project-links">
             <li>
               <a
@@ -226,16 +261,21 @@ const Projects = () => {
         ref={inViewRef6}
         className={`project-container left ${
           inView6 ? 'show ' : ''
-        }md:px-7 px-1.5 py-7`}
+        }px-4 py-4 sm:px-7 sm:py-7`}
       >
         <img src={pokemonPic} alt="Pokemon Memory Game Project" />
         <div className="project-info">
-          <h3 className="mb-0 md:mb-2">Memory Game</h3>
-          <p className="my-2 text-center text-sm sm:text-left sm:text-base">
+          <h3>Memory Game</h3>
+          <p className="text-center text-sm sm:text-left sm:text-base">
             This app displays random pokémon fetched from the PokéAPI. The goal
             is to click on all twelve pokémon without repeating picks. Can you
             catch 'em all?
           </p>
+          <div className="project-icons">
+            <i className="devicon-javascript-plain colored"></i>
+            <i className="devicon-react-original colored"></i>
+            <i className="devicon-css3-plain colored"></i>
+          </div>
           <ul className="project-links">
             <li>
               <a
