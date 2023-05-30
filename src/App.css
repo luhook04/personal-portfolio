@@ -11,7 +11,7 @@ body {
 }
 
 .about-content {
-  color: #fcd34d;
+  color: #fcd34dcf;
 }
 
 .nav-links li a {
@@ -86,10 +86,12 @@ h2 {
   margin-right: auto;
   margin-bottom: 60px;
   width: 85%;
+  background-color: rgba(30, 41, 59, 0.925);
   /* border: 2px solid #fcd34d; */
-  color: #fcd34d;
+  color: #fcd34dcf;
   padding: 15px;
   transition: scale 0.8s;
+  box-shadow: 0px 0px 20px black;
 }
 
 .about-info img {

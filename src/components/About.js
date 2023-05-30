@@ -10,14 +10,14 @@ const About = () => {
         <div></div>
       </div>
       <div className="about-container mt-20 mb-20">
-        <div className="about-info text-center text-s sm:text-lg sm:text-left bg-slate-800  ">
+        <div className="about-info text-center text-s sm:text-lg sm:text-left">
           <div className="flip-box">
             <div className="outer">
-              <div className="below bg-slate-800">
-                <img src={mePhoto} alt="" className="about-photo" />
+              <div className="below">
+                <img src={mePhoto} className="about-photo" alt="" />
               </div>
               <div className="top">
-                <img src={sadiePhoto} className="about-photo" alt=""></img>
+                <img src={sadiePhoto} className="about-photo" alt="" />
               </div>
             </div>
           </div>
