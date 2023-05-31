@@ -46,6 +46,10 @@ header {
   top: 0;
   width: 100%;
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+  animation: 1.3s ease-out 3s 1 slideInFromTop;
+  animation-fill-mode: forwards;
+
+  opacity: 0;
 }
 
 nav {
