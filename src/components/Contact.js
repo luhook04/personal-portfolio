@@ -18,7 +18,7 @@ const Contact = () => {
             <i className="devicon-github-original"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/luke-hook-47676916b/"
+            href="https://www.linkedin.com/in/lukehook04/"
             aria-label="LinkedIn"
           >
             <i className="devicon-linkedin-plain"></i>
