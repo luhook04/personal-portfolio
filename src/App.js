@@ -20,6 +20,7 @@ const App = () => {
   return (
     <div>
       <Particles
+        className="particles"
         id="tsparticles"
         init={particlesInit}
         options={{

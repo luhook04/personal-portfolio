@@ -10,6 +10,9 @@ body {
   overflow-x: hidden;
 }
 
+.particles {
+  display: none;
+}
 .about-content {
   color: #fcd34dcf;
 }
@@ -530,6 +533,9 @@ a span {
     display: block;
   }
 
+  .particles {
+    display: block;
+  }
   .about-info:hover {
     scale: 1.05;
   }
